@@ -105,7 +105,7 @@ nav li {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: var(--red);
+/*     background-color: var(--red); */
     position: absolute;
     transition: all 0.3s ease-in-out;
 }
