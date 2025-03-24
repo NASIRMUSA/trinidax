@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-section {
+    background-color: #f5f5f5;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.section-header p {
+    color: #e63946;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.underline {
+    width: 60px;
+    height: 3px;
+    background-color: #e63946;
+    margin: 15px auto 30px;
+}
+
+.content-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.about-text {
+    color: #444;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.highlight {
+    color: #e63946;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .courses-grid {
+        grid-template-columns: 1fr;
+    }
+}

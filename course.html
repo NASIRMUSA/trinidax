@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="course.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <title> TrinidaX Courses</title>
+</head>
+
+<body>
+    <nav>
+
+        <div class="nav-container">
+            <a href="#home" class="brand-title">Trinidax</a>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul>
+                <li><a class="nav-link" href="index.html" class="active">Home</a></li>
+                <li><a class="nav-link" href="course.html">Courses</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="courses-section">
+        <div class="courses-container">
+            <div class="section-title">
+                <h2>Our Courses</h2>
+                <p>Choose from our comprehensive selection of computer training programs</p>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="beginner">Beginner</button>
+                <button class="filter-btn" data-filter="intermediate">Intermediate</button>
+                <button class="filter-btn" data-filter="advanced">Advanced</button>
+            </div>
+
+            <div class="courses-grid">
+                <!-- Course 1 -->
+                <div class="course-card" data-level="beginner">
+                    <i class="course-icon fas fa-file-excel"></i>
+                    <div class="course-content">
+                        <h3>Microsoft Excel Mastery</h3>
+                        <p>Comprehensive training in spreadsheet management, formulas, and data analysis.</p>
+                        <div class="course-meta">
+                            <span class="course-duration">6 Weeks</span>
+                            <span class="course-level level-beginner">Beginner</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="course-card" data-level="intermediate">
+                    <i class="course-icon fas fa-paint-brush"></i>
+                    <div class="course-content">
+                        <h3>Graphic Design Fundamentals</h3>
+                        <p>Learn Adobe Photoshop, Illustrator, and design principles from industry experts.</p>
+                        <div class="course-meta">
+                            <span class="course-duration">8 Weeks</span>
+                            <span class="course-level level-intermediate">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="course-card" data-level="advanced">
+                    <i class="course-icon fas fa-code"></i>
+                    <div class="course-content">
+                        <h3>Full Stack Web Development</h3>
+                        <p>Master HTML, CSS, JavaScript, Node.js, and React to build modern web applications.</p>
+                        <div class="course-meta">
+                            <span class="course-duration">12 Weeks</span>
+                            <span class="course-level level-advanced">Advanced</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add remaining 17 courses following the same pattern -->
+                <!-- Example courses (replace icons and content as needed) -->
+                <div class="course-card" data-level="beginner">
+                    <i class="course-icon fas fa-chart-line"></i>
+                    <h3>Data Analysis Basics</h3>
+                    <p>Introduction to data analysis using Excel and Power BI.</p>
+                    <div class="course-meta">
+                        <span class="course-duration">4 Weeks</span>
+                        <span class="course-level level-beginner">Beginner</span>
+                    </div>
+                </div>
+                <div class="course-card" data-level="beginner">
+                    <i class="course-icon fas fa-chart-line"></i>
+                    <h3>Data Analysis Basics</h3>
+                    <p>Introduction to data analysis using Excel and Power BI.</p>
+                    <div class="course-meta">
+                        <span class="course-duration">4 Weeks</span>
+                        <span class="course-level level-beginner">Beginner</span>
+                    </div>
+                </div>
+                <!-- Course 4 -->
+                <div class="course-card" data-level="beginner">
+                    <i class="course-icon fas fa-file-powerpoint"></i>
+                    <div class="course-content">
+                        <h3>Microsoft PowerPoint Essentials</h3>
+                        <p>Create professional presentations with animations, transitions, and effective slide design.
+                        </p>
+                        <div class="course-meta">
+                            <span class="course-duration">4 Weeks</span>
+                            <span class="course-level level-beginner">Beginner</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 5 -->
+                <div class="course-card" data-level="beginner">
+                    <i class="course-icon fas fa-laptop-code"></i>
+                    <div class="course-content">
+                        <h3>Introduction to Python</h3>
+                        <p>Learn basic programming concepts with Python syntax and simple applications.</p>
+                        <div class="course-meta">
+                            <span class="course-duration">5 Weeks</span>
+                            <span class="course-level level-beginner">Beginner</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 6 -->
+                <div class="course-card" data-level="beginner">
+                    <i class="course-icon fas fa-file-word"></i>
+                    <div class="course-content">
+                        <h3>Microsoft Word Fundamentals</h3>
+                        <p>Master document creation, formatting, and basic publishing features.</p>
+                        <div class="course-meta">
+                            <span class="course-duration">3 Weeks</span>
+                            <span class="course-level level-beginner">Beginner</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 7 -->
+                <div class="course-card" data-level="beginner">
+                    <i class="course-icon fas fa-camera-retro"></i>
+                    <div class="course-content">
+                        <h3>Digital Photography Basics</h3>
+                        <p>Understand camera settings, composition, and basic photo editing.</p>
+                        <div class="course-meta">
+                            <span class="course-duration">4 Weeks</span>
+                            <span class="course-level level-beginner">Beginner</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 8 -->
+                <div class="course-card" data-level="beginner">
+                    <i class="course-icon fas fa-keyboard"></i>
+                    <div class="course-content">
+                        <h3>Computer Literacy Fundamentals</h3>
+                        <p>Essential skills for operating systems, file management, and internet basics.</p>
+                        <div class="course-meta">
+                            <span class="course-duration">2 Weeks</span>
+                            <span class="course-level level-beginner">Beginner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card" data-level="intermediate">
+                    <i class="course-icon fas fa-database"></i>
+                    <h3>SQL Database Management</h3>
+                    <p>Learn database design, SQL queries, and optimization techniques.</p>
+                    <div class="course-meta">
+                        <span class="course-duration">6 Weeks</span>
+                        <span class="course-level level-intermediate">Intermediate</span>
+                    </div>
+                </div>
+
+                <!-- Continue adding courses with appropriate Font Awesome icons -->
+                <!-- Use icons like: 
+                - fas fa-python
+                - fas fa-mobile-alt (for app development)
+                - fas fa-shield-alt (cybersecurity)
+                - fas fa-network-wired (networking)
+                - fas fa-cloud (cloud computing)
+                - fas fa-robot (AI/ML)
+                - fas fa-video (video editing)
+                - fas fa-chart-pie (data visualization)
+                -->
+            </div>
+        </div>
+    </section>
+    <script src="course.js"></script>
+</body>
+
+</html>
